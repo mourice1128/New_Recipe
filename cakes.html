@@ -10,6 +10,12 @@
 		<title>DelishDish.com - Cakes</title>
 	</head>
 	<body>
+	<script type="text/javascript">
+		function showPopup(url) {
+		newwindow=window.open(url,'name','height=300,width=500,top=300,left=300,resizable');
+		if (window.focus) {newwindow.focus()}
+		}
+	</script>
 		<a href="top"></a>
 		<ul class="topnav">
 			<li><a href=index.html>Home</a></li>
@@ -38,7 +44,7 @@
 				<tbody>
 					<tr>
 						<td colspan="2" rowspan="1">
-							<a class="rlink" target="_blank" href="cupcakes1.jpg">Pineapple Cupcakes</a>
+							<a class="rlink" href='Pictures/cupcakes1.jpg' onClick='showPopup(this.href);return(false);'>Pineapple Cupcakes</a>
 						</td>
 					</tr>
 					<tr>

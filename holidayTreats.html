@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Home</title>
+		<title>DelishDish.com - Holiday Pies</title>
 	</head>
 	<body>
 	<script type="text/javascript">
@@ -16,25 +16,10 @@
 		if (window.focus) {newwindow.focus()}
 		}
 	</script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
-<script type="text/javascript">
-$(function(){
-   // See if this is a touch device
-   if ('ontouchstart' in window)
-   {
-      // Set the correct [touchscreen] body class
-      $('body').removeClass('no-touch').addClass('touch');
-     
-      // Add the touch toggle to show text when tapped
-      $('div.boxInner img').click(function(){
-         $(this).closest('.boxInner').toggleClass('touchFocus');
-      });
-   }
-});
-</script>
+	<a href="top"></a>	
 <nav class="nav">
 	<ul>
-		<li><a href="#">Home</a></li>
+		<li><a href="index.html">Home</a></li>
 		<li><a href="meals.html">Meals</a><span class="dropBottom"></span>
 			<ul>
 				<li><a href="breakfast.html">Breakfast</a><span class="dropRight"></span>
@@ -101,9 +86,9 @@ $(function(){
 									</ul>
 								</li>
 								<li><a href="fondant.html">Fondant</a></li>
-								<li><a href="pies.html">Pie</a><span class="dropRight"></span>
+								<li><a href="regPie.html">Pie</a><span class="dropRight"></span>
 									<ul>
-										<li><a href="holidayTreats.html">Holiday</a></li>
+										<li><a href="#">Holiday</a></li>
 									</ul>
 								</li>
 								<li><a href="pudding.html">Pudding</a></li>
@@ -177,162 +162,55 @@ $(function(){
 	<option value="cola.html">Cola</Option>
 	<option value="contactUs.html">Contact us</option>
 	</select>
-</nav>
+	</nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-		<div style="padding:0 16px; color:white; font-size:18px;">
-			<h2>DELISH DISH</h2>
-				<p>This recipe site is brought to you by Josh Morison at Twizted Designs.
-				<br>
-				Click on one of the links above to view the type of recipe you are looking for.
-				<br>
-				Below is a gallery of some of the foods you will see in our site. Click on a picture to view it in a larger size.</p>
+<div style="padding:0 16px; color:white; font-size:18px;">
+	<a style="float: left;"href="pies.html"><img src='Pictures/backArrow.png' width=25 height=25></a>
+	<h2><a style="color: white; font sixe: 18px; text-decoration: none;">&nbsp;&nbsp; HOLIDAY PIES</h2>
 		</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<!-- 		<div class="overflow">
-		  <table id="tableImg">
-			<tr>
-			  <th>Noah's Ark Cake</th>
-			  <th>Sailor Cake</th>
-			  <th>Pineapple Cupcakes</th>
-			  <th>Spice Cake</th>
-			  <th>Daisy Cupcakes</th>
-			  <th>Chocolate Cookies</th>
-			  <th>Pumpkin Pie</th>
-			  <th>Chili-Roni</th>
-			</tr>
-			<tr>
-				<td>
-					<a href='Pictures/cake1.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/cake1.jpg" alt="Noah's Ark Cake" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/cake2.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/cake2.jpg" alt="Sailor Cake" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/cupcakes1.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/cupcakes1.jpg" alt="Pineapple Cupcakes" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/SpiceCake.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/SpiceCake.jpg" alt="Spice Cake" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/background1.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/background1.jpg" alt="Daisy Cupcakes" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/ChocChipCookie.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/ChocChipCookie.jpg" alt="Chocolate Chip Cookies" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/PumpkinPie.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/PumpkinPie.jpg" alt="Pumpkin Pie" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/ChiliRoni.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/ChiliRoni.jpg" alt="Chili-Roni" width="200px" height="250px"/>
-					</a>
-				</td>
-			</tr>
-		  </table>
+		<div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<a class="rlink" href='Pictures/PumpkinPie.jpg' onClick='showPopup(this.href);return(false);'>Pumpkin Pie</a>
+						</td>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<ul class="none">
+								<li>1 Cup Pumpkin Pie Filling</li>
+							<li><font class="frac">&frac12;</font> Cup Bisquick<sup>&reg;</sup> Mix</li>
+								<li><font class="frac">&frac12;</font> Cup Sugar</li>
+								<li>1 Can Evaporated Milk</li>
+							</ul>
+						<td>
+							<ul class="none">
+								<li>1 Tbsp Soft Butter</li>
+								<li>1<font class="frac">&frac12;</font> tsp Pumpkin Spice</li>
+								<li>1 tsp Vanilla</li>
+								<li>2 Eggs</li>
+							</ul>
+						</td>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">  
+							<ol class="some">
+								<li>Preheat oven to 350&deg;. Use broiler - Fill bottom with water.</li>
+								<li>Place pumpkin on top part, cook 20 minutes.</li>
+								<li>Stir ingredients in large bowl with wisk until well blended (35-40 minutes)</li>
+								<li>Cool in fridge for 2 hours.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
 		</div>
-		 -->
-<div class="wrap">
-    
-  <!-- Define all of the tiles: -->
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/cake1.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/cake1.jpg" alt="Noah's Ark Cake" width="200px" height="250px"/>
-					</a>
-      <div class="titleBox">Noah's Ark Cake</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-      					<a href='Pictures/cake2.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/cake2.jpg" alt="Sailor Cake" width="200px" height="250px"/>
-					</a>
-      <div class="titleBox">Sailor Cake</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/cupcakes1.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/cupcakes1.jpg" alt="Pineapple Cupcakes" width="200px" height="250px"/>
-      <div class="titleBox">Pineapple Cupcakes</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/SpiceCake.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/SpiceCake.jpg" alt="Spice Cake" width="200px" height="250px"/>
-      <div class="titleBox">Spice Cake</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/background1.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/background1.jpg" alt="Daisy Cupcakes" width="200px" height="250px"/>
-      <div class="titleBox">Daisy Cupcake</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/ChocChipCookie.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/ChocChipCookie.jpg" alt="Chocolate Chip Cookies" width="200px" height="250px"/>
-      <div class="titleBox">Chocolate Chip Cookies</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/PumpkinPie.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/PumpkinPie.jpg" alt="Pumpkin Pie" width="200px" height="250px"/>
-      <div class="titleBox">Pumpkin Pie</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/ChiliRoni.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/ChiliRoni.jpg" alt="Chili-Roni" width="200px" height="250px"/>
-      <div class="titleBox">Chili-Roni</div>
-    </div>
-  </div>
-<!--   <div class="box">
-    <div class="boxInner">
-      <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/8.jpg" />
-      <div class="titleBox">The garden blueprint</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-      <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/9.jpg" />
-      <div class="titleBox">The patio</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-      <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/11.jpg" />
-      <div class="titleBox">Bumble bee collecting nectar</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-      <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/12.jpg" />
-      <div class="titleBox">Winding garden path</div>
-</div>
-  </div> -->
-  
-</div>
-<!-- </div> -->
+<br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
 	</body>
 </html>

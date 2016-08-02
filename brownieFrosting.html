@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="styleMenu2.css">
 		<link href="navSwitch.js">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/cupcake2.ico"/>
-		<title>DelishDish.com - Home</title>
+		<title>DelishDish.com - Brownie Frosting</title>
 	</head>
 	<body>
 	<script type="text/javascript">
@@ -16,25 +16,10 @@
 		if (window.focus) {newwindow.focus()}
 		}
 	</script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
-<script type="text/javascript">
-$(function(){
-   // See if this is a touch device
-   if ('ontouchstart' in window)
-   {
-      // Set the correct [touchscreen] body class
-      $('body').removeClass('no-touch').addClass('touch');
-     
-      // Add the touch toggle to show text when tapped
-      $('div.boxInner img').click(function(){
-         $(this).closest('.boxInner').toggleClass('touchFocus');
-      });
-   }
-});
-</script>
+	<a href="top"></a>
 <nav class="nav">
 	<ul>
-		<li><a href="#">Home</a></li>
+		<li><a href="index.html">Home</a></li>
 		<li><a href="meals.html">Meals</a><span class="dropBottom"></span>
 			<ul>
 				<li><a href="breakfast.html">Breakfast</a><span class="dropRight"></span>
@@ -95,7 +80,7 @@ $(function(){
 								</li>
 								<li><a href="frosting.html">Frosting</a><span class="dropRight"></span>
 									<ul>
-										<li><a href="cakeFrosting.html">Cake</a></li>
+										<li><a href="#">Cake</a></li>
 										<li><a href="brownieFrosting.html">Brownie</a></li>
 										<li><a href="cookieFrosting.html">Cookie</a></li>
 									</ul>
@@ -177,162 +162,93 @@ $(function(){
 	<option value="cola.html">Cola</Option>
 	<option value="contactUs.html">Contact us</option>
 	</select>
-</nav>
+	</nav>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
 		<div style="padding:0 16px; color:white; font-size:18px;">
-			<h2>DELISH DISH</h2>
-				<p>This recipe site is brought to you by Josh Morison at Twizted Designs.
-				<br>
-				Click on one of the links above to view the type of recipe you are looking for.
-				<br>
-				Below is a gallery of some of the foods you will see in our site. Click on a picture to view it in a larger size.</p>
+			<h2>BROWNIE FROSTING</h2>
 		</div>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
-<!-- 		<div class="overflow">
-		  <table id="tableImg">
-			<tr>
-			  <th>Noah's Ark Cake</th>
-			  <th>Sailor Cake</th>
-			  <th>Pineapple Cupcakes</th>
-			  <th>Spice Cake</th>
-			  <th>Daisy Cupcakes</th>
-			  <th>Chocolate Cookies</th>
-			  <th>Pumpkin Pie</th>
-			  <th>Chili-Roni</th>
-			</tr>
-			<tr>
-				<td>
-					<a href='Pictures/cake1.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/cake1.jpg" alt="Noah's Ark Cake" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/cake2.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/cake2.jpg" alt="Sailor Cake" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/cupcakes1.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/cupcakes1.jpg" alt="Pineapple Cupcakes" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/SpiceCake.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/SpiceCake.jpg" alt="Spice Cake" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/background1.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/background1.jpg" alt="Daisy Cupcakes" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/ChocChipCookie.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/ChocChipCookie.jpg" alt="Chocolate Chip Cookies" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/PumpkinPie.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/PumpkinPie.jpg" alt="Pumpkin Pie" width="200px" height="250px"/>
-					</a>
-				</td>
-				<td>
-					<a href='Pictures/ChiliRoni.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/ChiliRoni.jpg" alt="Chili-Roni" width="200px" height="250px"/>
-					</a>
-				</td>
-			</tr>
-		  </table>
-		</div>
-		 -->
-<div class="wrap">
-    
-  <!-- Define all of the tiles: -->
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/cake1.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/cake1.jpg" alt="Noah's Ark Cake" width="200px" height="250px"/>
-					</a>
-      <div class="titleBox">Noah's Ark Cake</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-      					<a href='Pictures/cake2.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/cake2.jpg" alt="Sailor Cake" width="200px" height="250px"/>
-					</a>
-      <div class="titleBox">Sailor Cake</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/cupcakes1.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/cupcakes1.jpg" alt="Pineapple Cupcakes" width="200px" height="250px"/>
-      <div class="titleBox">Pineapple Cupcakes</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/SpiceCake.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/SpiceCake.jpg" alt="Spice Cake" width="200px" height="250px"/>
-      <div class="titleBox">Spice Cake</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/background1.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/background1.jpg" alt="Daisy Cupcakes" width="200px" height="250px"/>
-      <div class="titleBox">Daisy Cupcake</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/ChocChipCookie.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/ChocChipCookie.jpg" alt="Chocolate Chip Cookies" width="200px" height="250px"/>
-      <div class="titleBox">Chocolate Chip Cookies</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/PumpkinPie.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/PumpkinPie.jpg" alt="Pumpkin Pie" width="200px" height="250px"/>
-      <div class="titleBox">Pumpkin Pie</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-					<a href='Pictures/ChiliRoni.jpg' onClick='showPopup(this.href);return(false);'>
-						<img src="Pictures/ChiliRoni.jpg" alt="Chili-Roni" width="200px" height="250px"/>
-      <div class="titleBox">Chili-Roni</div>
-    </div>
-  </div>
-<!--   <div class="box">
-    <div class="boxInner">
-      <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/8.jpg" />
-      <div class="titleBox">The garden blueprint</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-      <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/9.jpg" />
-      <div class="titleBox">The patio</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-      <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/11.jpg" />
-      <div class="titleBox">Bumble bee collecting nectar</div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="boxInner">
-      <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/12.jpg" />
-      <div class="titleBox">Winding garden path</div>
-</div>
-  </div> -->
-  
-</div>
-<!-- </div> -->
+<div id="chocBrowFrosting"></div>
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<a class="rlink" href='Pictures/ChocBrowFrost.jpg' onClick='showPopup(this.href);return(false);'>Chocolate Brownie Frosting</a>
+								<div class="servings">
+									(Makes about 1<font class="frac">&frac23;</font> Cups For Chocolate Brownies)
+								</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<ul class="none">
+								<li>6 tbsp Butter, Room Temp</li>
+								<li>6 tbsp Cocoa</li>
+								<li>1 tbsp Light Corn Syrup or Honey</li>
+							</ul>
+						</td>
+						<td>
+							<ul class="none">
+								<li>1 tsp Vanilla Extract</li>
+								<li>2 Cups Powdered Sugar</li>
+								<li>2-4 tbsp milk</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<ol class="some">
+								<li>Beat butter, cocoa, corn syrup (or honey) in small bowl until blended.</li>
+								<li>Add powdered sugar and milk; beat to spreading consistancy</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
+<br>
 <!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+			<table class="recipe">
+				<tbody>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<a class="rlink" href='Pictures/RaspBrowSauce.jpg' onClick='showPopup(this.href);return(false);'>Raspberry Brownie Sauce</a>
+								<div class="servings">
+									(Makes about 12 servings)
+								</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<ul class="none">
+								<li>1 pt Fresh Raspberries</li>
+								<li>2 tbsp Powdered Sugar</li>
+							</ul>
+						</td>
+						<td>
+							<ul class="none">
+								<li>3 drops Lemon Juice</li>
+								<li><font class="frac">&frac12;</font> tsp Sea Salt</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" rowspan="1">
+							<ol class="some">
+								<li>Place raspberries in bowl.</li>
+								<li>Sift powdered sugar on top of raspberries.</li>
+								<li>Add lemon juice and salt.</li>
+								<li>pour mixture into blender and pur&#233;e</li>
+								<li>Strain and serve.</li>
+								<li>Drizzle over brownies.</li>
+							</ol>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="topLinkDiv"><a class="topLink" href='#top'>Back to Top</a></div>
+<br>
+<!--==--==--==--==--==--==--==--==--===--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==-->
+		</div>
 	</body>
 </html>
